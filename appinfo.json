@@ -1,0 +1,39 @@
+{
+  "uuid": "941778e2-5429-4c46-bc04-8715fcd23828",
+  "shortName": "pebble-watchface-sandbox",
+  "longName": "pebble-watchface-sandbox",
+  "companyName": "MakeAwesomeHappen",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt", "chalk"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {},
+  "resources": {
+    "media": [
+      {
+        "type":"font",
+        "name":"FONT_PERFECT_DOS_48",
+        "file":"fonts/perfect-dos-vga.ttf",
+        "compatibility": "2.7"
+      },
+      {
+        "type":"font",
+        "name":"FONT_PERFECT_DOS_20",
+        "file":"fonts/perfect-dos-vga.ttf",
+        "compatibility": "2.7"
+      },
+      {
+        "type":"bitmap",
+        "name":"IMAGE_BACKGROUND",
+        "file":"images/background.png"
+      },
+      {
+        "type": "bitmap",
+        "name": "IMAGE_BT_ICON",
+        "file": "images/bt-icon.png"
+      }
+    ]
+  }
+}
